@@ -8,15 +8,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCRI4-1kYFoqiUjEYT4AOnUSG9amMS4nLE",
-  authDomain: "hormoniq-8420b.firebaseapp.com",
-  projectId: "hormoniq-8420b",
-  storageBucket: "hormoniq-8420b.firebasestorage.app",
-  messagingSenderId: "333974410288",
-  appId: "1:333974410288:web:a13bc2ac347ef7a68fc9f5",
-  measurementId: "G-61VFHJTV5S"
-};
+
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
